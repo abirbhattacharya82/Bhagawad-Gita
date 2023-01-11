@@ -1,0 +1,6 @@
+.result_area
+{
+    display: flex;
+    background-image: linear-gradient(to right, #FED54A, #FF9347);
+    height: 75vh;
+}

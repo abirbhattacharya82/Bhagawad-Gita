@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+.headers
+{
+    font-family: 'Gabriela', serif;
+    font-size: 300%;
+    background-image: linear-gradient(to right, #FED54A, #FF9347);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+.Navbar
+{
+    width: 19%;
+    padding-left: 1%;
+}
+.Navbar .Chapters
+{
+    font-size: 150%;
+    font-weight: bold;
+    color: #D31A50;
+}
+.Navbar .ch_name
+{
+    border: none;
+    border-right: 1px solid #D31A50;
+    width: 100%;
+    font-family: 'Gabriela', serif;
+    background-color: transparent;
+    font-size: 100%;
+    text-align: left;
+}
+.Navbar .ch_name:hover
+{
+    color: white;
+    background-image: linear-gradient(to right, #FF4331, #D31A50);
+}

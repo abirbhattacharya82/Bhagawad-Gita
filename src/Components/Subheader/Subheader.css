@@ -1,0 +1,9 @@
+.subheading
+{
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right,#FF4331, #D31A50);
+    font-size: 150%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
