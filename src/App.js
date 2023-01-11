@@ -1,3 +1,4 @@
+import './App.css'
 import axios from 'axios';
 import Header from './Components/Header/Header'
 import Subheader from './Components/Subheader/Subheader'

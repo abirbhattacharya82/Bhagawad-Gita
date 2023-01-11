@@ -1,6 +1,34 @@
-.result_area
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+.Result
 {
     display: flex;
-    background-image: linear-gradient(to right, #FED54A, #FF9347);
-    height: 75vh;
+}
+.Result .Navbar
+{
+    width: 25%;
+}
+.Result .Navbar .Chapters
+{
+    margin-left: 2%;
+    width: 98%;
+    font-size: 150%;
+}
+.Result .Navbar .Separate_ch
+{
+    width: 100%;
+}
+.Result .Navbar .Separate_ch .ch_name
+{
+    margin-left: 5%;
+    width: 95%;
+    border: none;
+    background-color: transparent;
+    font-size: 100%;
+    text-align: left;
+    font-family: 'Gabriela', serif;
+}
+.Result .Navbar .Separate_ch .ch_name:hover
+{
+    background-image: linear-gradient(to right,#FF4331, #D31A50);
+    color: #FED54A;
 }
