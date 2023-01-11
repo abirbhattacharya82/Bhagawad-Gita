@@ -3,7 +3,7 @@ import './Result.css';
 import { useState } from "react";
 import Page from '../Page/Page'
 const Result = () =>{
-    const [ch_no, setCh_no]=useState(1);
+    const [ch_no, setCh_no]=useState(0);
     return(
         <div className="Result">
             <div className="Navbar">
@@ -29,7 +29,9 @@ const Result = () =>{
                     <button className="ch_name" onClick={()=>{setCh_no(18);}}>moksha-sanyaas-yoga</button> <br />
                 </div>
             </div>
-            <Page prop={ch_no}></Page>
+            <div className="Page">
+                <Page prop={ch_no}></Page>
+            </div>
         </div>
     )
 };

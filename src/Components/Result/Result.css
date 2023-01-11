@@ -5,7 +5,11 @@
 }
 .Result .Navbar
 {
-    width: 25%;
+    width: 20%;
+}
+.Result .Page
+{
+    width: 80%;
 }
 .Result .Navbar .Chapters
 {
