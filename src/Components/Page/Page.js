@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import axios from "axios";
+import cover from './src/cover.png'
 import './Page.css'
 const Page=(props)=>{
     console.log(props.prop);
@@ -19,18 +20,28 @@ const Page=(props)=>{
               axios.request(options).then(function (response) {
                   setCh_name(response.data.name_transliterated);
                   setCh(response.data.chapter_summary);
+                  if(props.prop!==0)
+                  {
+                    document.getElementById('container').style.display='block';
+                    document.getElementById('cover').style.display='none';
+                  }
               }).catch(function (error) {
                   console.error(error);
               });
         }
     )
     return(
-        <div className="container">
-            <div className="title">
-                {chapter_name}
+        <div>
+            <div className="cover" id="cover">
+                <img src={cover} alt="" />
             </div>
-            <div className="subtitle">
-                {chapter_summary}
+            <div className="container" id="container">
+                <div className="title">
+                    {chapter_name}
+                </div>
+                <div className="subtitle">
+                    {chapter_summary}
+                </div>
             </div>
         </div>
     )

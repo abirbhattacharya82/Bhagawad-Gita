@@ -1,14 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+.cover
+{
+    text-align: center;
+}
+.cover img
+{
+    width: 54%;
+}
 .container
 {
+    display: none;
     padding: 5%;
 }
 .container .title
 {
-    font-size: 150%;
+    font-size: 200%;
+    color: #D31A50;
+    font-weight: bold;
+    border-bottom: 1px solid red;
+    padding-bottom: 2%;
 }
 .container .subtitle
 {
+    padding-top: 2%;
     font-size: 120%;
     font-family: 'Gabriela', serif;
 }
