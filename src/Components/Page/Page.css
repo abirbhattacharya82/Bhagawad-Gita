@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+.container
+{
+    padding: 5%;
+}
+.container .title
+{
+    font-size: 150%;
+}
+.container .subtitle
+{
+    font-size: 120%;
+    font-family: 'Gabriela', serif;
+}
